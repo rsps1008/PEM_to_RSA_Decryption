@@ -87,7 +87,7 @@ namespace rsa_decode_fun
         {
             string HelloWorld = "KkWm0U5/aW5Ag03TZUAcc9EHAnRPXwNXS/VqseDoGeswKCSBfNq2MOqn51cylG09FuR+ShXKicjgcHeqCn2yKvclLkVygHhOG5vckZ7ZZDhF8KeknHTDISQHtfdl/n6OnnqXm9dz7OW259W3k3T0iBTHle7dWol/xiRAMM1jBSOFXmMMauf7NHII7+euOVC27pZplO3HOMEIArkqQ2sHzezS8hsz08I09FXH9YofkNOrf4uBEajirnPK1gmqnQ1p87os3NtIib+3rD7jtsAzsXRNEMCwFZSdCMkUKY2asn4pZQwwwfAnR3OU9SDDfporXE0BN0eHKbue02mEyz7gyVHCnqIYZaSG9goSFvrzQAIY9XXQMK1XMGKX5znfUGfZxYYgw8Q2U7SfS3IaAHpQQnVWgpAkK8Gv0eBFgs9WM3AQ44Lqv2fWNtp+eflsfSdW6T7SodMVefmILLztYeUWFUsKNNSyjeQq47QQsE+a/VRaUgZfOJktmnrr51kbJsWqA2vOx9DSrqrtyAXgslWwbSn1AeCitW+0nHZ66i70FUpSfEnywaXJkeyjkc35L4NfgVPZWalnfDDWnnNommn+Su5sxuxRPOGP9KEvR7DNHW7vOAICCC1yZfpZ7yn8QU/6m6gBW73OTqnwd2njUpMn88OgHEZA9fqRQohd21feUKU=";
             jwt_decode_class decoder = new jwt_decode_class();
-            string result = decoder.decode(HelloWorld, "E:\\Google雲端硬碟\\JWT_Project\\Lib\\測試用公私鑰\\RP(JWT Payload加密)\\private_key.pem");
+            string result = decoder.decode(HelloWorld, "private_key.pem");
             Console.WriteLine(result);
             Console.ReadLine();
         }
