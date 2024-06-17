@@ -61,7 +61,7 @@ public class rsa_decode_fun {
 	            str_decode = new String(utf8, "UTF-8");
 				return str_decode;
         	} catch (Exception e) {
-        		throw new RuntimeException("RSA私鑰解密失敗" + e);
+        		throw new RuntimeException("RSA private key decryption failed" + e);
         	}
         } catch (Exception e) {
             String currentTime = sdf.format(new Date());
