@@ -24,7 +24,7 @@ public class rsa_decode_fun {
 	public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     public static void main(String[] args) {
-        String result = decode(HelloWorld, "E:\\Google雲端硬碟\\JWT_Project\\Lib\\測試用公私鑰\\RP(JWT Payload加密)\\private_key.pem");
+        String result = decode(HelloWorld, "private_key.pem");
         System.out.println(result);
     }
     
